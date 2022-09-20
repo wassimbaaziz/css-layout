@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header>img{
+    width: 250px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+#nav{
+    display: flex;
+    margin: 30px;
+    gap: 20px;
+    color: gray;
+    font-size: 17px;
+}
+nav:first-of-type{
+    color: #00b39b;
+}
+nav:hover{
+color: #00b39b;
+cursor: pointer;
+}
+.title{
+color: #00b39b;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 30px;
+}
+.para{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 30px 200px 30px 200px;
+    gap: 30px;
+    line-height: 1.6;
+
+}
+#first>img{
+    margin-left: 745px;
+}
+#cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 30px 200px 30px 200px;
+}
+.card:nth-child(1){
+    background-color: #00b39b;
+
+}
+.card:nth-child(2){
+    background-color: #3d83df;
+}
+.card:nth-child(3){
+    background-color: #1b2734;
+}
+.card{
+    border-radius: 10px;
+    color: white;
+    padding: 30px;
+    height: 300px;
+    width: 250px;
+}
+.card{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+span:first-of-type{
+    line-height:1.6 ;
+    font-size: larger;
+}
+.card:hover{
+    opacity: 90%;
+}
+.card:hover{
+    transform: scale(1.1);
+box-shadow: 6px 10px 5px 0px rgba(150, 122, 122, 0.75);
+    -webkit-box-shadow: 6px 10px 5px 0px rgba(150, 122, 122, 0.75);
+    -moz-box-shadow: 6px 10px 5px 0px rgba(150, 122, 122, 0.75);
+}
+a{
+
+    color: white;
+}
+.card-end{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+select{
+    background-color: #1b2734;
+    color: white;
+    border: 0;
+    text-decoration: underline;
+    margin-left: -5px;
+    font-size: medium;
+}
+
+.logo{
+color: #00b39b;
+display: flex;
+justify-content:space-around;
+margin-left: 15px;
+
+}
+
+.imge-logo{
+display: flex;
+gap: 50px;
+margin-left: -100px;
+
+}
+.imge-logo>img{
+    width: 100px;
+    
+    filter: grayscale(100%);
+}
+.imge-logo>img:hover{
+    cursor: pointer;
+    filter: grayscale(0%);
+      
+}
+
+.foot{
+  
+    color: #3d83df;
+
+}
+.foot:hover{
+    text-decoration: underline;
+}
+
+#static{
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    background-color: #8aded3;
+    background-image: url("https://www.docplanner.com/img/sygnet.png " );
+    background-repeat: no-repeat;
+    height: 750px;;
+    background-position: left bottom;
+    background-size: 380px;
+}
+  
+#square{
+    
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.statice{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 5px;
+}
+#square>div{
+    margin: 20px;
+    background-color: aliceblue;
+    height: 300px;
+    width: 300px;
+}
+
+.test-2{
+   
+    margin-top: 20px;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.test-2>h1{
+    color: #00b39b;
+    margin-bottom: 2em;
+}
+.test-2>p{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 30px 200px 30px 200px;
+    gap: 20px;
+    line-height: 1.6;
+}
+
+#photo{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ 
+}
+.test>img{
+    border-radius: 5px 5px 0px 0px;
+}
+.test>div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   margin-top: 15px;
+}
+button{
+    background-color: #3d83df ;
+    opacity: 90%;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    color: aliceblue;
+}
+button:hover{
+    background-color: #006eff;
+    opacity: 100%;
+
+}
+.test:hover{
+    box-shadow: 0px 10px 5px 0px rgba(150, 122, 122, 0.5);
+        -webkit-box-shadow: 0px 10px 5px 0px rgba(150, 122, 122, 0.5);
+        -moz-box-shadow: 0px 10px 5px 0px rgba(150, 122, 122, 0.5);
+} 
+
+
+.test-3>p{
+
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 30px 200px 30px 200px;
+    gap: 20px;
+   font-size:larger;
+}
+.test-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5em;
+}
+.test-3>button{
+    background-color: #3d83df ;
+    opacity: 90%;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    color: aliceblue;
+}
+.test-3>button:hover{
+    background-color: #006eff;
+    opacity: 100%;
+
+}
